@@ -8,3 +8,4 @@ dist/
 .env.*
 *.log
 npm-debug.log*
+public/audio/Study_Binaurial_Beat_90.mp3
