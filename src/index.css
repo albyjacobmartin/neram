@@ -203,6 +203,38 @@ input:focus-visible {
   background: #8c71ff;
 }
 
+.social-links {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 20;
+}
+
+.social-link {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(19, 22, 30, 0.9);
+  color: var(--foreground);
+  text-decoration: none;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  background: rgba(124, 92, 252, 0.14);
+}
+
 .audio-card {
   width: 100%;
   padding: 20px;
