@@ -8,10 +8,10 @@ interface FocusTask {
 }
 
 const INITIAL_TASKS: FocusTask[] = [
-  { id: 'design-system-audit', label: 'Design system audit', done: true },
-  { id: 'write-api-documentation', label: 'Write API documentation', done: true },
-  { id: 'review-pull-requests', label: 'Review pull requests', done: false },
-  { id: 'refactor-auth-module', label: 'Refactor auth module', done: false },
+  { id: 'design-system-audit', label: 'Created by Alby Jacob Martin', done: false },
+  { id: 'design-system-audit', label: 'This is a Open Source Project', done: false },
+  { id: 'design-system-audit', label: 'If you like this project', done: false },
+  { id: 'design-system-audit', label: 'Giving a star on Github would be great', done: false }
 ]
 
 export default function FocusQueue() {
