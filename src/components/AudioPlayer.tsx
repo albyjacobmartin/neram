@@ -156,7 +156,6 @@ function AudioPlayer() {
   return (
     <section className="audio-card" aria-labelledby="soundscape-title">
       <div className="audio-card__heading">
-        <h2 id="soundscape-title">Soundscape</h2>
       </div>
 
       <div className="audio-picker-row">
@@ -256,7 +255,7 @@ function AudioPlayer() {
             onMouseDown={(event) => event.stopPropagation()}
           >
             <div className="audio-picker-dialog__header">
-              <h3 id="audio-picker-title">Choose a Track</h3>
+              <h3 id="audio-picker-title">Choose an Audio</h3>
               <button
                 className="audio-picker-dialog__close"
                 type="button"
@@ -280,7 +279,6 @@ function AudioPlayer() {
               )}
               {tracks.length > 0 && (
                 <div className="audio-picker-group">
-                  <p>Available tracks</p>
                   <div className="audio-picker-grid">
                     {tracks.map((track) => {
                       const isActive = selectedTrack?.file === track.file
