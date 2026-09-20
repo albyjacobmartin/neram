@@ -705,6 +705,29 @@ input:focus-visible {
     padding: 16px;
   }
 
+  .audio-picker-dialog {
+    width: min(420px, calc(100vw - 20px));
+  }
+
+  .audio-picker-dialog__body {
+    padding: 10px 12px;
+  }
+
+  .audio-picker-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .audio-picker-option {
+    min-height: 46px;
+  }
+
+  .audio-picker-option > span:last-child {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    line-height: 1.4;
+    word-break: break-word;
+  }
 }
 
 
