@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   color-scheme: dark;
@@ -10,7 +10,7 @@
   --muted: #161925;
   --muted-foreground: #6b7290;
   --border: #1e2438;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Google Sans', system-ui, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
